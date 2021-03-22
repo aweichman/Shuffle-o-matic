@@ -7,6 +7,7 @@ Thingiverse page (cad files):
 https://www.thingiverse.com/thing:4547302
 
 ## Significant experience recommended if you want to take on this project, it isn't documented very well :)
+I am working hard to rebuild and redocument the whole project.  Please stay tuned!
 
 Hardware required
 - 3D printer
