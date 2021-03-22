@@ -36,6 +36,8 @@ Adafruit Feather Supported Boards:
 
 The arduino project for the Adafruit requires a target with at least 5 analog inputs (A5 is used for the DC Motor Power pin).  The following lists the boards that I have found to be compatible with this requirement:
 1. STM32F405 Express ($24.95)
+2. nRF52840 Express ($24.95) (Confirmed compiles arduino 1.8.13)
+
 
 
 The following is a list of parts that I have found to NOT work:
