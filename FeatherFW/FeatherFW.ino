@@ -1,6 +1,9 @@
 #include "shuffler.h"
 
-#define Serial SERIAL_PORT_USBVIRTUAL
+#if defined(ARDUINO_SAMD_ZERO) && defined(SERIAL_PORT_USBVIRTUAL)
+  // Required for Serial on Zero based boards
+  #define Serial SERIAL_PORT_USBVIRTUAL
+#endif
 
 void setup() 
 { 
