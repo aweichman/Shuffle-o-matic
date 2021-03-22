@@ -1,5 +1,14 @@
 #include "shuffler.h"
 
+namespace std {
+  void __throw_bad_alloc() {
+    Serial.println("Unable to allocate memory");
+  }
+  void __throw_length_error( char const*e ) {
+    Serial.print("Length Error :"); Serial.println(e);
+  }
+}
+
 #if defined(ARDUINO_SAMD_ZERO) && defined(SERIAL_PORT_USBVIRTUAL)
   // Required for Serial on Zero based boards
   #define Serial SERIAL_PORT_USBVIRTUAL
